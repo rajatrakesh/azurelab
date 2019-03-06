@@ -42,5 +42,6 @@ This is a Lab guide for Big Data / Cloudera on Azure using the Azure marketplace
 * Lab 6 - Running Spark on Cloudera
 	- pySpark Program
 	- Cloudera on Azure Reference Architecture
-	- Cloudera Documentation
+
+* Cloudera Documentation
 	
