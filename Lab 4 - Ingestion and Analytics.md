@@ -16,15 +16,13 @@ Click on DB (Blue cylindrical icon)
 
 On the Right hand Side click the +The following screen will appear
 
-![Hue](./images/lab04-b.jpg)
+![Hue](./images/lab04-c.jpg)
 
 We are going to use our CRM database table that we extracted from SalesForce. This was extracted as a tab delimited file from SFDC and we will use our Metastore manager to import this file into a HIVE table on Cloudera using HUE.
 
 For this assignment, we will be using the file ``crm_customers.txt``. This is available in the ``labfiles`` folder. Download this to your laptop. 
 
 When the file is downloaded, upload it to your Cloudera instance, using the wizard we have started earlier.Then Import to Table.
-
-![Hue](./images/lab04-c.jpg)
 
 Select the file that you downloaded earlier.
 
@@ -64,7 +62,7 @@ Challenge -write a SQL script to group the customers by state and count how many
 
 Can you name the top 3 states?
 
-		select customer_state, count(*) as cust_per_state_numfrom crm_customersgroup by customer_stateorder by cust_per_state_num desc
+		select customer_state, count(*) as cust_per_state_num from crm_customers group by customer_state order by cust_per_state_num desc
 
 ![Hue](./images/lab04-i.jpg)
 
