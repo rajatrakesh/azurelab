@@ -4,7 +4,7 @@ If you don’t have an Azure account with credits please use the following regis
 
 Here is the URL for the registration page. Your instructor will give you the Activation CodeOnly corporate emails can be used to register (no gmail, yahoo, outlook or hotmail).
 
-http://bit.ly/2HC3F6p
+http://bit.ly/2EMI0oi
 
 ![Azure](./images/lab01-a.jpg)
 
