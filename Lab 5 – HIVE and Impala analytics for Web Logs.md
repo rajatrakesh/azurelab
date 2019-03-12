@@ -105,7 +105,8 @@ Now we will do further analysis –lets try and find out which customer and whic
 
 We can do further analysis on where these IP address Geolocation using a pySpark job and finding out which states have the highest number of click throughs on our retail website. We could even tie IP address to customer based on customer login details andcreate a Customer 360 of our retail customer profile and shopping habits.
 
-
+### End of Lab
+---
 
 
 
