@@ -65,7 +65,9 @@ Copy and paste the follow text into the HIVE Editor.
 	ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
 	LOCATION '/user/cloudera/tokenized_access_logs';
 	
-	ADD JAR /opt/cloudera/parcels/CDH/lib/hive/lib/hive-contrib.jar;	
+	ADD JAR /opt/cloudera/parcels/CDH/lib/hive/lib/hive-contrib.jar;
+	
+	INSERT OVERWRITE TABLE tokenized_access_logs SELECT * FROM intermediate_access_logs;	
 ![Hue](./images/lab05-g.jpg)
 
 Select the full text and click in the run button on the left hand side. This should automatically create two new tables ``intermediate_access_logs`` and ``tokenized_access_logs``.
