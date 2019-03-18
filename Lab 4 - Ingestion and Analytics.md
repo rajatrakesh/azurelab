@@ -82,7 +82,9 @@ Add the names of the fields as follows:
 * STATE_CODE
 * ABBREV_STATE
 
-		select `50_us_states_all_data`.state as state_name, count(customer_id) as cust_per_statefrom crm_customers, `50_us_states_all_data`where crm_customers.customer_state = 50_us_states_all_data.`state_code`group by state_nameorder by cust_per_state desc
+	select `50_us_states_all_data`.state as state_name, count(customer_id) as cust_per_state from crm_customers, 
+	`50_us_states_all_data` where crm_customers.customer_state = 50_us_states_all_data.`state_code` 
+	group by state_name order by cust_per_state desc
 		
 ![Hue](./images/lab04-k.jpg)
 
