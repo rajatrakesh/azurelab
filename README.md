@@ -43,7 +43,5 @@ This is a Lab guide for Big Data / Cloudera on Azure using the Azure marketplace
 	- pySpark Program
 	- Cloudera on Azure Reference Architecture
 
-* Lab 7 - Data Ingestion with CDF (WIP)
-
 * Cloudera Documentation
 	
