@@ -72,20 +72,21 @@ This file is also available in ``labfiles`` folder.
 
 select the one with ``50_us_states_all_data.csv`` And list them out as customer state
 
-**Tip:** use  HUE –add the table as parquet Then go back to HUE -> Query and hit refresh metadata.
+**Tip:** use  HUE –add the table as parquet. Remember to keep the option of 'Store in default location' selected this time. Then go back to HUE -> Query and hit refresh metadata.
 
 ![Hue](./images/lab04-j.jpg)
 
 Add the names of the fields as follows:
+
 * STATE
 * PCASE_STATE
 * STATE_CODE
 * ABBREV_STATE
 
-	select `50_us_states_all_data`.state as state_name, count(customer_id) as cust_per_state from crm_customers, 
-	`50_us_states_all_data` where crm_customers.customer_state = 50_us_states_all_data.`state_code` 
-	group by state_name order by cust_per_state desc
-		
+		select `50_us_states_all_data`.state as state_name, count(customer_id) as cust_per_state from crm_customers, 
+		`50_us_states_all_data` where crm_customers.customer_state = 50_us_states_all_data.`state_code` 
+		group by state_name order by cust_per_state desc;
+
 ![Hue](./images/lab04-k.jpg)
 
 ### End of Lab 4
