@@ -51,10 +51,10 @@ Select ``Invalidate all metadata`` and rebuild index and select Refresh button.
 Go into the Query windows and do two queries:
 
 * Select all customers from California
-		select * from crm_customers 
-		where customer_state = 'CA';
+		```select * from crm_customers 
+		where customer_state = 'CA';```
 * Count up the number of customers in Texas
-		select count(customer_id) from crm_customerswhere customer_state = 'TX';
+		```select count(customer_id) from crm_customerswhere customer_state = 'TX';```
 		
 ![Hue](./images/lab04-h.jpg)
 
@@ -62,7 +62,7 @@ Challenge -write a SQL script to group the customers by state and count how many
 
 Can you name the top 3 states?
 
-		select customer_state, count(*) as cust_per_state_num from crm_customers group by customer_state order by cust_per_state_num desc
+		```select customer_state, count(*) as cust_per_state_num from crm_customers group by customer_state order by cust_per_state_num desc```
 
 ![Hue](./images/lab04-i.jpg)
 
