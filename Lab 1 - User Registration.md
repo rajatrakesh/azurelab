@@ -9,13 +9,13 @@ http://bit.ly/2YLu3OG
 
 ![Azure](./images/lab01-a.jpg)
 
-Please complete the registration process. Then click on Launch Lab.
+Please complete the registration process. Click Submit. Another page will load and on that click on Launch Lab.
 
-You will then receive an Azure Logon credentials on the email id you used for the registration. These would be the credentials that you would use for accessing the lab throughout the day. 
+You will then receive an Azure Logon credentials on the email id you used for the registration. These would be the credentials that you would use for accessing the lab throughout the day. The first section (highlighted in red) are your logon credentials to the Azure Portal. 
 
 ![Azure](./images/lab01-b.jpg)
 
-Login to Azure with YOUR OWN above generated credentials. You can use the copy icon to the right of the user id and password.
+Login to Azure with YOUR OWN above generated credentials. For the purpose of the lab, please avoid sharing the credentials or using the instructor credentials that you might see on the screen. You can use the copy icon to the right of the user id and password. The link to the Azure Portal is in the credentials page as well. 
 
 URL = https://azure.microsoft.com/en-us/
 

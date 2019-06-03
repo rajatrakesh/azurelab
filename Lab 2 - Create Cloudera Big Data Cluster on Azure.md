@@ -10,7 +10,7 @@ Search for 'Cloudera Enterprise' in Marketplace.
 
 ![Azure](./images/lab02-c.jpg)
 
-Select 'Cloudera Enterprise Data Hub'.
+Select '**Cloudera on Azure**' with the 'Cloudera Enterprise Data Hub' option.
 
 ![Azure](./images/lab02-d.jpg)
 
@@ -28,10 +28,12 @@ Now let's go through the basic steps for setting up the various parameters and c
  Password = ```Cloudera_123```
  
 * Select Subscription
- ```Cloudera HOL –1A``` **Could be different in your case**
+ ```Cloud Labs AI (SS - 02)``` **Could be different in your case**.
+ 
+* Select the Resource group ```cloudera-edh-67966```. 
  
 * Select Location
-```West US```
+```(Asia Pacific) Southeast Asia```
 
 ### 2: Infrastructure Information
 
@@ -80,7 +82,7 @@ Wait for the validation to pass.
 
 Click OK. 
 
-Wait for the Summary to validate and then click on OK and then click on Create. 
+Wait for the Summary to validate and then click on OK. The next screen is for terms of use. Here you need to provide your email id, and then click on Create. 
 
 ![Azure](./images/lab02-m.jpg)
 
