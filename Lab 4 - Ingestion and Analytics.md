@@ -68,9 +68,9 @@ Can you name the top 3 states?
 
 Now add in the state name from a list from the internet. The file can be downloaded from: https://scottontechnology.com/list-of-50-us-states-in-excel
 
-This file is also available in ``labfiles`` folder.
+This file is also available in ``labfiles`` folder. Upload this file in the /user/hive/warehouse folder.
 
-select the one with ``50_us_states_all_data.csv`` And list them out as customer state
+select the one with ``50_us_states_all_data.csv`` And list them out as customer state.
 
 **Tip:** use  HUE –add the table as parquet. Remember to keep the option of 'Store in default location' selected this time. Then go back to HUE -> Query and hit refresh metadata.
 
